@@ -1,0 +1,21 @@
+{
+  "schema": "gx-publication-verification-0.1",
+  "checked_on": "2026-11-10",
+  "python": "3.13.5",
+  "standalone_unit_tests": {
+    "run": 30,
+    "passed": 30,
+    "private_data_required": false,
+    "native_runtime_executed": false
+  },
+  "public_catalog_sha256": "1cbaddb7c1cc819a462b97b2697db931ee2baf3627968f982f56cd174fe5be8d",
+  "public_rules_link_validation": "passed",
+  "private_seed_roundtrip": "exact byte identity verified locally; ignored output retained outside version control",
+  "documentation_relative_links": "passed",
+  "deployed_source_file_hashes": "5 of 5 match",
+  "raw_materials_included": false,
+  "runtime_archive_included": false,
+  "credential_or_machine_address_included": false,
+  "prior_integration_summary": "prior-server-summary.json",
+  "scope": "This report records publication checks; previous real runtime integration is reported separately."
+}

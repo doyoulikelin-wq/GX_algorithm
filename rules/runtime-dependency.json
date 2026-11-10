@@ -1,0 +1,13 @@
+{
+  "schema": "gx-external-runtime-lock-0.1",
+  "upstream_repository": "https://github.com/ysun5-byte/bazi-core-handoff",
+  "upstream_commit": "575cfb3eeef690e52b5f0f7f383d429ef08db689",
+  "version": "v0.4.0",
+  "runtime_archive_name": "bazi-core-runtime-v0.4.0.tar.gz",
+  "runtime_archive_sha256": "5fc94c2b1560ae5e9a357e278b33d482cd7b004f061227168bb34933f473b005",
+  "installation_manifest_sha256": "4f526c5e0e0f82b2db80c172196436bc1a010f5540dd7247763cfcfd2f6fd482",
+  "program_adoption_calendar_pins": 76,
+  "container_image": "public.ecr.aws/docker/library/python@sha256:a5a7017efc5969e00ae2b91c8eb0631049a569652aa4ffc4501769049ae45c72",
+  "runtime_source_included": false,
+  "authorization": "Obtain the pinned runtime through existing authorized access; no credentials are stored here."
+}

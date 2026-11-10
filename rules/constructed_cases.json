@@ -1,0 +1,2176 @@
+[
+  {
+    "case_id": "A_month_food_natal_positive",
+    "module": "month_food_natal",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "戊戌",
+        "month": "庚申",
+        "day": "戊戌",
+        "hour": "壬戌"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "壬戌",
+            "year": "壬子",
+            "month": "壬子",
+            "day": "戊戌",
+            "hour": "壬戌"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "evidence_scope": "natal_and_current"
+    }
+  },
+  {
+    "case_id": "A_month_food_natal_boundary",
+    "module": "month_food_natal",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "戊戌",
+        "month": "庚申",
+        "day": "戊戌",
+        "hour": "壬戌"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "壬戌",
+            "year": "壬子",
+            "month": "壬子",
+            "day": "戊戌",
+            "hour": "壬子"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "evidence_scope": "natal_and_current"
+    }
+  },
+  {
+    "case_id": "A_month_official_positive",
+    "module": "month_official",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "癸丑",
+        "month": "甲寅",
+        "day": "己丑",
+        "hour": "丁卯"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "癸丑",
+            "year": "丁卯",
+            "month": "癸丑",
+            "day": "丁丑",
+            "hour": "癸卯"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "evidence_scope": "natal_and_current"
+    }
+  },
+  {
+    "case_id": "A_month_official_boundary",
+    "module": "month_official",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "癸丑",
+        "month": "甲寅",
+        "day": "己丑",
+        "hour": "丁卯"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "癸丑",
+            "year": "丁卯",
+            "month": "癸丑",
+            "day": "丁卯",
+            "hour": "癸卯"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "evidence_scope": "natal_and_current"
+    }
+  },
+  {
+    "case_id": "A_print_finance_positive",
+    "module": "print_finance",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "辛巳",
+        "month": "癸巳",
+        "day": "己卯",
+        "hour": "丁卯"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "癸卯",
+            "year": "己未",
+            "month": "丁卯",
+            "day": "癸卯",
+            "hour": "己未"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "evidence_scope": "natal_and_current"
+    }
+  },
+  {
+    "case_id": "A_print_finance_boundary",
+    "module": "print_finance",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "辛巳",
+        "month": "癸巳",
+        "day": "己卯",
+        "hour": "丁卯"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "癸卯",
+            "year": "己未",
+            "month": "丁卯",
+            "day": "癸卯",
+            "hour": "丁巳"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "evidence_scope": "natal_and_current"
+    }
+  },
+  {
+    "case_id": "A_pure_print_finance_positive",
+    "module": "pure_print_finance",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "乙丑",
+        "month": "己丑",
+        "day": "辛酉",
+        "hour": "己丑"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "己丑",
+            "year": "乙丑",
+            "month": "己丑",
+            "day": "己丑",
+            "hour": "乙丑"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "evidence_scope": "natal_and_current_pending_execution"
+    }
+  },
+  {
+    "case_id": "A_pure_print_finance_boundary",
+    "module": "pure_print_finance",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "乙丑",
+        "month": "己丑",
+        "day": "辛酉",
+        "hour": "己丑"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "己丑",
+            "year": "乙丑",
+            "month": "己丑",
+            "day": "己丑",
+            "hour": "丙寅"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "evidence_scope": "natal_and_current_pending_execution"
+    }
+  },
+  {
+    "case_id": "A_hurt_finance_positive",
+    "module": "hurt_finance",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "癸未",
+        "month": "庚申",
+        "day": "己未",
+        "hour": "癸酉"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "癸亥",
+            "year": "壬子",
+            "month": "己酉",
+            "day": "癸未",
+            "hour": "己未"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "evidence_scope": "natal_only_current_undetermined"
+    }
+  },
+  {
+    "case_id": "A_hurt_finance_boundary",
+    "module": "hurt_finance",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "癸未",
+        "month": "庚申",
+        "day": "己未",
+        "hour": "癸酉"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "癸亥",
+            "year": "己未",
+            "month": "壬申",
+            "day": "癸亥",
+            "hour": "戊午"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "evidence_scope": "natal_only_current_undetermined"
+    }
+  },
+  {
+    "case_id": "A_kill_food_positive",
+    "module": "kill_food",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "乙亥",
+        "month": "甲申",
+        "day": "甲辰",
+        "hour": "丁卯"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "丁亥",
+            "year": "甲辰",
+            "month": "丁卯",
+            "day": "甲申",
+            "hour": "丁卯"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "evidence_scope": "natal_and_current"
+    }
+  },
+  {
+    "case_id": "A_kill_food_boundary",
+    "module": "kill_food",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "乙亥",
+        "month": "甲申",
+        "day": "甲辰",
+        "hour": "丁卯"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "丁亥",
+            "year": "丙午",
+            "month": "丙申",
+            "day": "丙申",
+            "hour": "丙申"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "evidence_scope": "natal_and_current"
+    }
+  },
+  {
+    "case_id": "A_yangren_positive",
+    "module": "yangren",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "壬辰",
+        "month": "丙午",
+        "day": "戊辰",
+        "hour": "甲寅"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "甲辰",
+            "year": "甲寅",
+            "month": "丙寅",
+            "day": "甲辰",
+            "hour": "丙寅"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "evidence_scope": "natal_and_current"
+    }
+  },
+  {
+    "case_id": "A_yangren_boundary",
+    "module": "yangren",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "壬辰",
+        "month": "丙午",
+        "day": "戊辰",
+        "hour": "甲寅"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "甲辰",
+            "year": "甲寅",
+            "month": "丙寅",
+            "day": "甲午",
+            "hour": "丙寅"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "evidence_scope": "natal_and_current"
+    }
+  },
+  {
+    "case_id": "B01_wu_positive",
+    "module": "wu",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "癸亥",
+        "month": "乙卯",
+        "day": "乙未",
+        "hour": "壬午"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "甲午",
+            "year": "癸亥",
+            "month": "乙卯",
+            "day": "乙未",
+            "hour": "壬午"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "PrimaryWu-actual-five-UTC-current-whole/0.1/nominal"
+    }
+  },
+  {
+    "case_id": "B01_wu_boundary",
+    "module": "wu",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "癸亥",
+        "month": "乙卯",
+        "day": "乙未",
+        "hour": "壬午"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "庚申",
+            "year": "庚申",
+            "month": "甲申",
+            "day": "庚申",
+            "hour": "甲申"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "PrimaryWu-actual-five-UTC-current-whole/0.1/nominal"
+    }
+  },
+  {
+    "case_id": "B02_wu_relations_positive",
+    "module": "wu_relations",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "癸亥",
+        "month": "乙卯",
+        "day": "乙未",
+        "hour": "壬午"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "甲午",
+            "year": "癸亥",
+            "month": "乙卯",
+            "day": "丁未",
+            "hour": "癸卯"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "PrimaryWu-actual-five-UTC-current-whole/0.1/nominal",
+      "evidence_scope": "extension remains named task within original method result",
+      "natal_status": "determined",
+      "timeline_statuses": [
+        "undetermined"
+      ]
+    }
+  },
+  {
+    "case_id": "B02_wu_relations_boundary",
+    "module": "wu_relations",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "癸亥",
+        "month": "乙卯",
+        "day": "乙未",
+        "hour": "壬午"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "庚申",
+            "year": "庚申",
+            "month": "甲申",
+            "day": "庚申",
+            "hour": "甲申"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "PrimaryWu-actual-five-UTC-current-whole/0.1/nominal",
+      "evidence_scope": "extension remains named task within original method result"
+    }
+  },
+  {
+    "case_id": "B03_dingchen_positive",
+    "module": "dingchen",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "丙辰",
+        "month": "壬辰",
+        "day": "丁未",
+        "hour": "甲辰"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "甲辰",
+            "year": "甲寅",
+            "month": "丙寅",
+            "day": "甲寅",
+            "hour": "丙寅"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "DingChen-ordinary-Bing-veto-whole-theme-research/0.1"
+    }
+  },
+  {
+    "case_id": "B03_dingchen_boundary",
+    "module": "dingchen",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "丙辰",
+        "month": "壬辰",
+        "day": "丁未",
+        "hour": "甲辰"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "庚申",
+            "year": "庚申",
+            "month": "甲申",
+            "day": "庚申",
+            "hour": "甲申"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "DingChen-ordinary-Bing-veto-whole-theme-research/0.1"
+    }
+  },
+  {
+    "case_id": "B04_chen_food_kill_positive",
+    "module": "chen_food_kill",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "壬子",
+        "month": "甲辰",
+        "day": "丙寅",
+        "hour": "戊子"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "壬寅",
+            "year": "甲子",
+            "month": "戊辰",
+            "day": "戊寅",
+            "hour": "壬子"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "misc-Chen-food-uses-kill-print-whole-functions/0.1"
+    }
+  },
+  {
+    "case_id": "B04_chen_food_kill_boundary",
+    "module": "chen_food_kill",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "壬子",
+        "month": "甲辰",
+        "day": "丙寅",
+        "hour": "戊子"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "庚申",
+            "year": "庚申",
+            "month": "甲申",
+            "day": "庚申",
+            "hour": "甲申"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "misc-Chen-food-uses-kill-print-whole-functions/0.1"
+    }
+  },
+  {
+    "case_id": "B05_mcn1_net_positive",
+    "module": "mcn1_net",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "癸未",
+        "month": "丙辰",
+        "day": "丙寅",
+        "hour": "乙未"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "甲寅",
+            "year": "甲寅",
+            "month": "丙寅",
+            "day": "甲寅",
+            "hour": "丙寅"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "core-yongshen-Primary42-MCN1-local-net/0.1.0",
+      "natal_status": "determined",
+      "timeline_statuses": [
+        "undetermined"
+      ]
+    }
+  },
+  {
+    "case_id": "B05_mcn1_net_boundary",
+    "module": "mcn1_net",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "癸未",
+        "month": "丙辰",
+        "day": "丙寅",
+        "hour": "乙未"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "庚申",
+            "year": "庚申",
+            "month": "甲申",
+            "day": "庚申",
+            "hour": "甲申"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "core-yongshen-Primary42-MCN1-local-net/0.1.0"
+    }
+  },
+  {
+    "case_id": "B06_mcn2_positive",
+    "module": "mcn2",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "壬午",
+        "month": "甲辰",
+        "day": "甲寅",
+        "hour": "丙寅"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "壬寅",
+            "year": "壬寅",
+            "month": "壬寅",
+            "day": "壬寅",
+            "hour": "壬寅"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "MCN2-467-four-axis-net-five-layer-0.1",
+      "natal_status": "undetermined",
+      "timeline_statuses": [
+        "undetermined"
+      ]
+    }
+  },
+  {
+    "case_id": "B06_mcn2_boundary",
+    "module": "mcn2",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "壬午",
+        "month": "甲辰",
+        "day": "甲寅",
+        "hour": "丙寅"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "庚申",
+            "year": "庚申",
+            "month": "甲申",
+            "day": "庚申",
+            "hour": "甲申"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "MCN2-467-four-axis-net-five-layer-0.1"
+    }
+  },
+  {
+    "case_id": "B07_finance_follow_positive",
+    "module": "finance_follow",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "戊申",
+        "month": "丙辰",
+        "day": "甲午",
+        "hour": "戊辰"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "戊辰",
+            "year": "戊辰",
+            "month": "丙辰",
+            "day": "戊辰",
+            "hour": "丙辰"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "core-yongshen-Ren-finance-standing-dependence/0.1.0",
+      "natal_status": "outside_supported_domain",
+      "timeline_statuses": [
+        "outside_supported_domain"
+      ]
+    }
+  },
+  {
+    "case_id": "B07_finance_follow_boundary",
+    "module": "finance_follow",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "戊申",
+        "month": "丙辰",
+        "day": "甲午",
+        "hour": "戊辰"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "庚申",
+            "year": "庚申",
+            "month": "甲申",
+            "day": "庚申",
+            "hour": "甲申"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "core-yongshen-Ren-finance-standing-dependence/0.1.0"
+    }
+  },
+  {
+    "case_id": "B08_lujie_positive",
+    "module": "lujie",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "己未",
+        "month": "丁卯",
+        "day": "乙亥",
+        "hour": "己卯"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "癸亥",
+            "year": "乙未",
+            "month": "己卯",
+            "day": "癸未",
+            "hour": "乙卯"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "core-yongshen-yimao-lujie-whole/0.1.0"
+    }
+  },
+  {
+    "case_id": "B08_lujie_boundary",
+    "module": "lujie",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "己未",
+        "month": "丁卯",
+        "day": "乙亥",
+        "hour": "己卯"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "庚申",
+            "year": "庚申",
+            "month": "甲申",
+            "day": "庚申",
+            "hour": "甲申"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "core-yongshen-yimao-lujie-whole/0.1.0"
+    }
+  },
+  {
+    "case_id": "B09_lujie_single_finance_positive",
+    "module": "lujie_single_finance",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "乙亥",
+        "month": "己卯",
+        "day": "乙未",
+        "hour": "癸未"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "癸未",
+            "year": "乙卯",
+            "month": "癸未",
+            "day": "癸未",
+            "hour": "癸亥"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "core-yongshen-yimao-single-finance/0.1.0"
+    }
+  },
+  {
+    "case_id": "B09_lujie_single_finance_boundary",
+    "module": "lujie_single_finance",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "乙亥",
+        "month": "己卯",
+        "day": "乙未",
+        "hour": "癸未"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "庚申",
+            "year": "庚申",
+            "month": "甲申",
+            "day": "庚申",
+            "hour": "甲申"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "core-yongshen-yimao-single-finance/0.1.0"
+    }
+  },
+  {
+    "case_id": "B10_lujie_xin_positive",
+    "module": "lujie_xin",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "辛亥",
+        "month": "辛卯",
+        "day": "乙未",
+        "hour": "癸未"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "丁亥",
+            "year": "癸未",
+            "month": "乙卯",
+            "day": "丁亥",
+            "hour": "癸卯"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "core-yongshen-yimao-double-xin/0.1.0"
+    }
+  },
+  {
+    "case_id": "B10_lujie_xin_boundary",
+    "module": "lujie_xin",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "辛亥",
+        "month": "辛卯",
+        "day": "乙未",
+        "hour": "癸未"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "庚申",
+            "year": "庚申",
+            "month": "甲申",
+            "day": "庚申",
+            "hour": "甲申"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "core-yongshen-yimao-double-xin/0.1.0"
+    }
+  },
+  {
+    "case_id": "B11_finance_follow_closed_source_positive",
+    "module": "finance_follow",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "戊辰",
+        "month": "丙辰",
+        "day": "甲辰",
+        "hour": "戊辰"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "戊辰",
+            "year": "戊辰",
+            "month": "丙辰",
+            "day": "戊辰",
+            "hour": "丙辰"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "core-yongshen-Ren-finance-standing-dependence/0.1.0",
+      "natal_status": "determined",
+      "timeline_statuses": [
+        "determined"
+      ]
+    }
+  },
+  {
+    "case_id": "B12_mcn2_natal_positive_current_boundary",
+    "module": "mcn2",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "壬子",
+        "month": "甲辰",
+        "day": "甲寅",
+        "hour": "丙寅"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "壬寅",
+            "year": "壬寅",
+            "month": "壬寅",
+            "day": "壬寅",
+            "hour": "壬寅"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "MCN2-467-four-axis-net-five-layer-0.1",
+      "natal_status": "determined",
+      "timeline_statuses": [
+        "undetermined"
+      ]
+    }
+  },
+  {
+    "case_id": "B13_wu_relations_jiaji_candidate",
+    "module": "wu_relations",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "癸亥",
+        "month": "乙卯",
+        "day": "乙未",
+        "hour": "壬午"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "甲午",
+            "year": "己未",
+            "month": "乙亥",
+            "day": "己未",
+            "hour": "乙亥"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "PrimaryWu-actual-five-UTC-current-whole/0.1/nominal",
+      "natal_status": "determined"
+    }
+  },
+  {
+    "case_id": "B14_mcn1_current_candidate",
+    "module": "mcn1_net",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "癸未",
+        "month": "丙辰",
+        "day": "丙寅",
+        "hour": "乙未"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "甲寅",
+            "year": "丁未",
+            "month": "甲辰",
+            "day": "丁未",
+            "hour": "甲辰"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "core-yongshen-Primary42-MCN1-local-net/0.1.0",
+      "natal_status": "determined"
+    }
+  },
+  {
+    "case_id": "B15_mcn2_current_candidate_a",
+    "module": "mcn2",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "壬子",
+        "month": "甲辰",
+        "day": "甲寅",
+        "hour": "丙寅"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "甲寅",
+            "year": "甲寅",
+            "month": "丙寅",
+            "day": "甲寅",
+            "hour": "丙寅"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "MCN2-467-four-axis-net-five-layer-0.1",
+      "natal_status": "determined"
+    }
+  },
+  {
+    "case_id": "B16_mcn2_current_candidate_b",
+    "module": "mcn2",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "壬子",
+        "month": "甲辰",
+        "day": "甲寅",
+        "hour": "丙寅"
+      },
+      "samples": [
+        {
+          "at": "2000-01-01T00:00:00Z",
+          "pillars": {
+            "luck": "壬寅",
+            "year": "壬寅",
+            "month": "壬寅",
+            "day": "甲寅",
+            "hour": "丙寅"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "MCN2-467-four-axis-net-five-layer-0.1",
+      "natal_status": "determined"
+    }
+  },
+  {
+    "case_id": "C_jiase_existing_native_input",
+    "module": "jiase",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "day": "戊辰",
+        "hour": "己未",
+        "month": "乙未",
+        "year": "丙辰"
+      },
+      "samples": [
+        {
+          "at": "2026-11-03T00:00:00Z",
+          "pillars": {
+            "year": "丙辰",
+            "day": "戊辰",
+            "hour": "戊午",
+            "luck": "甲辰",
+            "month": "乙未"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "Jiase384-original-and-actual-five-R0-all-rates",
+      "evidence_scope": "selected_method_basis",
+      "timeline_statuses": [
+        "determined"
+      ]
+    }
+  },
+  {
+    "case_id": "C_jiase_existing_previous_native_input",
+    "module": "jiase",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "day": "戊辰",
+        "hour": "己未",
+        "month": "乙未",
+        "year": "丙辰"
+      },
+      "samples": [
+        {
+          "at": "2026-11-03T00:00:00Z",
+          "pillars": {
+            "year": "丁未",
+            "day": "己未",
+            "hour": "己巳",
+            "luck": "甲辰",
+            "month": "丙午"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "Jiase384-original-and-actual-five-R0-all-rates",
+      "evidence_scope": "selected_method_basis",
+      "timeline_statuses": [
+        "determined"
+      ]
+    }
+  },
+  {
+    "case_id": "C_runxia_existing_native_input",
+    "module": "runxia",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "day": "壬辰",
+        "hour": "辛亥",
+        "month": "戊子",
+        "year": "庚申"
+      },
+      "samples": [
+        {
+          "at": "2026-11-03T00:00:00Z",
+          "pillars": {
+            "year": "庚申",
+            "day": "戊辰",
+            "hour": "壬子",
+            "luck": "甲申",
+            "month": "戊子"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "Runxia410-original-and-actual-five-R0-all-rates",
+      "evidence_scope": "selected_method_basis"
+    }
+  },
+  {
+    "case_id": "C_runxia_existing_previous_native_input",
+    "module": "runxia",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "day": "壬辰",
+        "hour": "辛亥",
+        "month": "戊子",
+        "year": "庚申"
+      },
+      "samples": [
+        {
+          "at": "2026-11-03T00:00:00Z",
+          "pillars": {
+            "year": "壬子",
+            "day": "壬申",
+            "hour": "庚子",
+            "luck": "甲申",
+            "month": "壬子"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "Runxia410-original-and-actual-five-R0-all-rates",
+      "evidence_scope": "selected_method_basis"
+    }
+  },
+  {
+    "case_id": "C_strong_follow_existing_native_input",
+    "module": "strong_follow",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "day": "甲子",
+        "hour": "乙亥",
+        "month": "乙卯",
+        "year": "癸亥"
+      },
+      "samples": [
+        {
+          "at": "2026-11-03T00:00:00Z",
+          "pillars": {
+            "year": "癸卯",
+            "day": "乙卯",
+            "hour": "丙子",
+            "luck": "戊辰",
+            "month": "乙卯"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "Strong417-rooted-peer-print-cooperation-and-actual-five-R0",
+      "evidence_scope": "selected_method_basis",
+      "timeline_statuses": [
+        "undetermined"
+      ]
+    }
+  },
+  {
+    "case_id": "C_strong_follow_existing_previous_native_input",
+    "module": "strong_follow",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "day": "甲子",
+        "hour": "乙亥",
+        "month": "乙卯",
+        "year": "癸亥"
+      },
+      "samples": [
+        {
+          "at": "2026-11-03T00:00:00Z",
+          "pillars": {
+            "year": "癸卯",
+            "day": "癸卯",
+            "hour": "乙卯",
+            "luck": "乙卯",
+            "month": "乙卯"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "Strong417-rooted-peer-print-cooperation-and-actual-five-R0",
+      "evidence_scope": "selected_method_basis",
+      "timeline_statuses": [
+        "determined"
+      ]
+    }
+  },
+  {
+    "case_id": "C_force_follow_existing_native_input",
+    "module": "force_follow",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "day": "癸巳",
+        "hour": "甲寅",
+        "month": "壬辰",
+        "year": "丙戌"
+      },
+      "samples": [
+        {
+          "at": "2026-11-03T00:00:00Z",
+          "pillars": {
+            "year": "丙戌",
+            "day": "癸巳",
+            "hour": "甲寅",
+            "luck": "癸亥",
+            "month": "壬辰"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "Force392-S2-current-six-connected-source-versions",
+      "evidence_scope": "selected_method_basis",
+      "timeline_statuses": [
+        "undetermined"
+      ]
+    }
+  },
+  {
+    "case_id": "C_force_follow_existing_previous_native_input",
+    "module": "force_follow",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "day": "癸巳",
+        "hour": "甲寅",
+        "month": "壬辰",
+        "year": "丙戌"
+      },
+      "samples": [
+        {
+          "at": "2026-11-03T00:00:00Z",
+          "pillars": {
+            "year": "丙戌",
+            "day": "癸巳",
+            "hour": "甲寅",
+            "luck": "甲寅",
+            "month": "壬辰"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "Force392-S2-current-six-connected-source-versions",
+      "evidence_scope": "selected_method_basis",
+      "timeline_statuses": [
+        "determined"
+      ]
+    }
+  },
+  {
+    "case_id": "C_yanshang_existing_native_input",
+    "module": "yanshang",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "壬寅",
+        "month": "庚戌",
+        "day": "丁亥",
+        "hour": "丙午"
+      },
+      "samples": [
+        {
+          "at": "2026-11-03T00:00:00Z",
+          "pillars": {
+            "luck": "丙午",
+            "year": "壬寅",
+            "month": "壬寅",
+            "day": "丙午",
+            "hour": "甲午"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "Yanshang404-original-and-actual-five-R0-all-rates",
+      "evidence_scope": "selected_method_basis",
+      "timeline_statuses": [
+        "undetermined"
+      ]
+    }
+  },
+  {
+    "case_id": "C_yanshang_existing_previous_native_input",
+    "module": "yanshang",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "壬寅",
+        "month": "庚戌",
+        "day": "丁亥",
+        "hour": "丙午"
+      },
+      "samples": [
+        {
+          "at": "2026-11-03T00:00:00Z",
+          "pillars": {
+            "year": "壬寅",
+            "day": "丙午",
+            "hour": "甲午",
+            "luck": "壬申",
+            "month": "壬寅"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "Yanshang404-original-and-actual-five-R0-all-rates",
+      "evidence_scope": "selected_method_basis",
+      "timeline_statuses": [
+        "undetermined"
+      ]
+    }
+  },
+  {
+    "case_id": "C_quzhi_registered_source_candidate",
+    "module": "quzhi",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "癸亥",
+        "month": "乙卯",
+        "day": "乙亥",
+        "hour": "癸未"
+      },
+      "samples": [
+        {
+          "at": "2026-11-03T00:00:00Z",
+          "pillars": {
+            "luck": "癸亥",
+            "year": "癸亥",
+            "month": "乙卯",
+            "day": "乙未",
+            "hour": "癸未"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "Quzhi519-clear5-original-print-and-same-stem-R0-five-layer",
+      "evidence_scope": "selected_method_basis"
+    }
+  },
+  {
+    "case_id": "C_quzhi_new_source_roles_boundary",
+    "module": "quzhi",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "癸亥",
+        "month": "乙卯",
+        "day": "乙亥",
+        "hour": "癸未"
+      },
+      "samples": [
+        {
+          "at": "2026-11-03T00:00:00Z",
+          "pillars": {
+            "luck": "甲子",
+            "year": "甲子",
+            "month": "丙寅",
+            "day": "甲子",
+            "hour": "甲子"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "Quzhi519-clear5-original-print-and-same-stem-R0-five-layer",
+      "evidence_scope": "selected_method_basis"
+    }
+  },
+  {
+    "case_id": "C_congge_registered_source_candidate",
+    "module": "congge",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "辛巳",
+        "month": "丁酉",
+        "day": "辛丑",
+        "hour": "己丑"
+      },
+      "samples": [
+        {
+          "at": "2026-11-03T00:00:00Z",
+          "pillars": {
+            "luck": "辛丑",
+            "year": "辛巳",
+            "month": "丁酉",
+            "day": "辛丑",
+            "hour": "己丑"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "sanming-reforming-metal-signed-whole/0.1",
+      "evidence_scope": "selected_method_basis",
+      "natal_status": "determined",
+      "timeline_statuses": [
+        "outside_supported_domain"
+      ]
+    }
+  },
+  {
+    "case_id": "C_congge_new_source_roles_boundary",
+    "module": "congge",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "辛巳",
+        "month": "丁酉",
+        "day": "辛丑",
+        "hour": "己丑"
+      },
+      "samples": [
+        {
+          "at": "2026-11-03T00:00:00Z",
+          "pillars": {
+            "luck": "甲子",
+            "year": "甲子",
+            "month": "丙寅",
+            "day": "甲子",
+            "hour": "甲子"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "sanming-reforming-metal-signed-whole/0.1",
+      "evidence_scope": "selected_method_basis",
+      "natal_status": "determined",
+      "timeline_statuses": [
+        "outside_supported_domain"
+      ]
+    }
+  },
+  {
+    "case_id": "C_four_transform_registered_source_candidate",
+    "module": "four_transform",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "庚午",
+        "month": "庚辰",
+        "day": "甲申",
+        "hour": "己巳"
+      },
+      "samples": [
+        {
+          "at": "2026-11-03T00:00:00Z",
+          "pillars": {
+            "luck": "庚申",
+            "year": "庚午",
+            "month": "庚辰",
+            "day": "庚辰",
+            "hour": "辛巳"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "Ren376-four-strict-transformations-outlet-current-0.1",
+      "evidence_scope": "source_diagnostic_only"
+    }
+  },
+  {
+    "case_id": "C_four_transform_new_source_roles_boundary",
+    "module": "four_transform",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "庚午",
+        "month": "庚辰",
+        "day": "甲申",
+        "hour": "己巳"
+      },
+      "samples": [
+        {
+          "at": "2026-11-03T00:00:00Z",
+          "pillars": {
+            "luck": "甲子",
+            "year": "甲子",
+            "month": "丙寅",
+            "day": "甲子",
+            "hour": "甲子"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "Ren376-four-strict-transformations-outlet-current-0.1",
+      "evidence_scope": "source_diagnostic_only"
+    }
+  },
+  {
+    "case_id": "C_virtual_well_registered_source_candidate",
+    "module": "virtual_well",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "戊子",
+        "month": "庚申",
+        "day": "庚申",
+        "hour": "庚辰"
+      },
+      "samples": [
+        {
+          "at": "2026-11-03T00:00:00Z",
+          "pillars": {
+            "luck": "庚申",
+            "year": "戊子",
+            "month": "庚申",
+            "day": "庚申",
+            "hour": "庚辰"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "Primary-well-real-source-license-and-five-layer-R0-0.1",
+      "evidence_scope": "source_diagnostic_only"
+    }
+  },
+  {
+    "case_id": "C_virtual_well_new_source_roles_boundary",
+    "module": "virtual_well",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "戊子",
+        "month": "庚申",
+        "day": "庚申",
+        "hour": "庚辰"
+      },
+      "samples": [
+        {
+          "at": "2026-11-03T00:00:00Z",
+          "pillars": {
+            "luck": "甲子",
+            "year": "甲子",
+            "month": "丙寅",
+            "day": "甲子",
+            "hour": "甲子"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "Primary-well-real-source-license-and-five-layer-R0-0.1",
+      "evidence_scope": "source_diagnostic_only"
+    }
+  },
+  {
+    "case_id": "C_xin_climate_registered_source_candidate",
+    "module": "xin_climate",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "癸亥",
+        "month": "癸亥",
+        "day": "辛酉",
+        "hour": "己亥"
+      },
+      "samples": [
+        {
+          "at": "2026-11-03T00:00:00Z",
+          "pillars": {
+            "luck": "戊辰",
+            "year": "戊辰",
+            "month": "辛酉",
+            "day": "戊辰",
+            "hour": "癸亥"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "Ren74-Xin-H0-three-source-diagnostics-actual-five-R0",
+      "evidence_scope": "source_diagnostic_only"
+    }
+  },
+  {
+    "case_id": "C_xin_climate_new_source_roles_boundary",
+    "module": "xin_climate",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "癸亥",
+        "month": "癸亥",
+        "day": "辛酉",
+        "hour": "己亥"
+      },
+      "samples": [
+        {
+          "at": "2026-11-03T00:00:00Z",
+          "pillars": {
+            "luck": "甲子",
+            "year": "甲子",
+            "month": "丙寅",
+            "day": "甲子",
+            "hour": "甲子"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "Ren74-Xin-H0-three-source-diagnostics-actual-five-R0",
+      "evidence_scope": "source_diagnostic_only"
+    }
+  },
+  {
+    "case_id": "C_soil_climate_registered_source_candidate",
+    "module": "soil_climate",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "庚辰",
+        "month": "己丑",
+        "day": "甲辰",
+        "hour": "庚午"
+      },
+      "samples": [
+        {
+          "at": "2026-11-03T00:00:00Z",
+          "pillars": {
+            "luck": "庚午",
+            "year": "庚辰",
+            "month": "己丑",
+            "day": "甲辰",
+            "hour": "庚午"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "Ren-fourform-soil-cold-wet-dry-actual-source-0.1",
+      "evidence_scope": "source_diagnostic_only"
+    }
+  },
+  {
+    "case_id": "C_soil_climate_new_source_roles_boundary",
+    "module": "soil_climate",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "庚辰",
+        "month": "己丑",
+        "day": "甲辰",
+        "hour": "庚午"
+      },
+      "samples": [
+        {
+          "at": "2026-11-03T00:00:00Z",
+          "pillars": {
+            "luck": "甲子",
+            "year": "甲子",
+            "month": "丙寅",
+            "day": "甲子",
+            "hour": "甲子"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "Ren-fourform-soil-cold-wet-dry-actual-source-0.1",
+      "evidence_scope": "source_diagnostic_only"
+    }
+  },
+  {
+    "case_id": "C_jiase_legal_natal_outside",
+    "module": "jiase",
+    "kind": "boundary",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "甲子",
+        "month": "丙寅",
+        "day": "甲子",
+        "hour": "甲子"
+      },
+      "samples": [
+        {
+          "at": "2026-11-03T00:00:00Z",
+          "pillars": {
+            "year": "丙辰",
+            "day": "戊辰",
+            "hour": "戊午",
+            "luck": "甲辰",
+            "month": "乙未"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "natal_status": "outside_supported_domain",
+      "timeline_statuses": [
+        "outside_supported_domain"
+      ],
+      "evidence_scope": "no_jiase_citation"
+    }
+  },
+  {
+    "case_id": "C_congge_same_stem_current_diagnostic",
+    "module": "congge",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "辛巳",
+        "month": "丁酉",
+        "day": "辛丑",
+        "hour": "己丑"
+      },
+      "samples": [
+        {
+          "at": "2026-11-03T00:00:00Z",
+          "pillars": {
+            "luck": "己酉",
+            "year": "辛丑",
+            "month": "辛丑",
+            "day": "辛丑",
+            "hour": "己丑"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "sanming-reforming-metal-signed-whole/0.1",
+      "evidence_scope": "natal_selected_method_basis_and_current_source_diagnostic_only",
+      "natal_status": "determined",
+      "timeline_statuses": [
+        "undetermined"
+      ]
+    }
+  },
+  {
+    "case_id": "C_yanshang_existing_public_010",
+    "module": "yanshang",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "壬寅",
+        "month": "庚戌",
+        "day": "丁亥",
+        "hour": "丙午"
+      },
+      "samples": [
+        {
+          "at": "2026-11-03T00:00:00Z",
+          "pillars": {
+            "luck": "癸酉",
+            "year": "壬寅",
+            "month": "壬寅",
+            "day": "丙午",
+            "hour": "甲午"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "Yanshang404-original-and-actual-five-R0-all-rates",
+      "evidence_scope": "existing_nominal_positive_all_rates_adjudication_to_be_verified"
+    }
+  },
+  {
+    "case_id": "C_yanshang_existing_public_037",
+    "module": "yanshang",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "壬寅",
+        "month": "庚戌",
+        "day": "丁亥",
+        "hour": "丙午"
+      },
+      "samples": [
+        {
+          "at": "2026-11-03T00:00:00Z",
+          "pillars": {
+            "luck": "庚子",
+            "year": "壬寅",
+            "month": "壬寅",
+            "day": "丙午",
+            "hour": "甲午"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "Yanshang404-original-and-actual-five-R0-all-rates",
+      "evidence_scope": "existing_nominal_positive_all_rates_adjudication_to_be_verified"
+    }
+  },
+  {
+    "case_id": "C_yanshang_existing_public_059",
+    "module": "yanshang",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "壬寅",
+        "month": "庚戌",
+        "day": "丁亥",
+        "hour": "丙午"
+      },
+      "samples": [
+        {
+          "at": "2026-11-03T00:00:00Z",
+          "pillars": {
+            "luck": "癸亥",
+            "year": "壬寅",
+            "month": "壬寅",
+            "day": "丙午",
+            "hour": "甲午"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "Yanshang404-original-and-actual-five-R0-all-rates",
+      "evidence_scope": "existing_nominal_positive_all_rates_adjudication_to_be_verified"
+    }
+  },
+  {
+    "case_id": "C_xin_climate_task_B",
+    "module": "xin_climate",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "癸未",
+        "month": "丁巳",
+        "day": "辛酉",
+        "hour": "癸巳"
+      },
+      "samples": [
+        {
+          "at": "2026-11-03T00:00:00Z",
+          "pillars": {
+            "luck": "己丑",
+            "year": "己巳",
+            "month": "己巳",
+            "day": "辛酉",
+            "hour": "己丑"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "Ren74-Xin-H0-three-source-diagnostics-actual-five-R0",
+      "evidence_scope": "source_diagnostic_only_task_B",
+      "timeline_statuses": [
+        "undetermined"
+      ]
+    }
+  },
+  {
+    "case_id": "C_xin_climate_task_C",
+    "module": "xin_climate",
+    "kind": "positive",
+    "request": {
+      "schema": "core-yongshen-input-0.1",
+      "input_origin": "constructed_test",
+      "pillars": {
+        "year": "癸亥",
+        "month": "癸亥",
+        "day": "辛酉",
+        "hour": "己亥"
+      },
+      "samples": [
+        {
+          "at": "2026-11-03T00:00:00Z",
+          "pillars": {
+            "luck": "丁未",
+            "year": "丁亥",
+            "month": "辛亥",
+            "day": "辛酉",
+            "hour": "己亥"
+          }
+        }
+      ]
+    },
+    "expected": {
+      "method": "Ren74-Xin-H0-three-source-diagnostics-actual-five-R0",
+      "evidence_scope": "source_diagnostic_only_task_C",
+      "timeline_statuses": [
+        "undetermined"
+      ]
+    }
+  }
+]

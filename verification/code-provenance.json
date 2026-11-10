@@ -1,0 +1,13 @@
+{
+  "schema": "gx-deployed-code-provenance-0.1",
+  "source_release_id": "20261110-v2",
+  "same_bytes_as_deployed_application": true,
+  "files": {
+    "src/catalog_builder.py": "99142cb7b39ef98e60a1ab88c3d235d66615f4023ab4a8d9b9b855a3cc9587b0",
+    "src/catalog_queries.py": "d0e69adf59dafe512469de8f76a7c50b8ffac14e3cac5ffa116f47fb3827f086",
+    "src/engine_adapter.py": "bbbb5f2cc98e1a6e6bcb752e18d5d63c99e160a264cab9c4437e60fd1b5f9cf3",
+    "src/pipeline.py": "e34ef8f8840249b0a26eeefd1cea0ecd350c6407583ad560ff316e9581371eec",
+    "src/server_cli.py": "a1880298f61cba49e240208be5e59be0b54c1894383b5e96e1169b4140592e33"
+  },
+  "native_runtime_reimplemented": false
+}

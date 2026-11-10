@@ -1,0 +1,22 @@
+{
+  "schema": "core-yongshen-input-0.1",
+  "input_origin": "constructed_test",
+  "pillars": {
+    "year": "癸亥",
+    "month": "乙卯",
+    "day": "乙未",
+    "hour": "壬午"
+  },
+  "samples": [
+    {
+      "at": "2000-01-01T00:00:00Z",
+      "pillars": {
+        "luck": "甲午",
+        "year": "己未",
+        "month": "乙亥",
+        "day": "己未",
+        "hour": "乙亥"
+      }
+    }
+  ]
+}

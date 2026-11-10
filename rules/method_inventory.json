@@ -1,0 +1,763 @@
+[
+  {
+    "module": "month_food_natal",
+    "label": "严格月令食神",
+    "method": "whole-natal-multibranch-to-original-base-0.12",
+    "component": "rev155_month_food_baseline_v0_12",
+    "source_readiness": "exact_primary_excerpt_visually_verified",
+    "known_limits": [
+      "只沿rev167 old124/new145来源；新增异干财、印官杀及未闭关系不能借原文强推。",
+      "本引文仅为该具名方法的传统依据，不单独证明本次最终喜用或其主次。",
+      "根气单位、传递系数、保留率及承载门属于原方法工程模型，不能说成古籍规定的数值。",
+      "不证明现实预测效度、完整传统身强身弱，或其他方法和地域的通用喜忌。"
+    ],
+    "case_ids": [
+      "A_month_food_natal_positive",
+      "A_month_food_natal_boundary"
+    ],
+    "adoption": {
+      "path": "part1-final/source_policies/rev167_B12_project_adoption.json",
+      "sha256": "16cdb74a0e4eb3c374f5c1da52ce4c5fdc9418ecbc2da6d791b8f9d9f00b320c",
+      "status": "adopted_bounded_whole_natal_base_adapter",
+      "original_id": "project-adopted-whole-natal-B12-monthfood",
+      "archive": "bazi-core-runtime-v0.4.0.tar.gz",
+      "native_pin": "research/core-yongshen/month_food_natal.py:ADOPTION_SHA",
+      "native_pin_verified": true
+    },
+    "current_handoff_scope_document": {
+      "path": "research/core-yongshen/month_food_time_2026-11-07.md",
+      "sha256": "c399e588ebe007c7d26823302fdbdfe0f5160f1fe2f56cfd9c11cd7459ffe14e",
+      "github_commit": "575cfb3eeef690e52b5f0f7f383d429ef08db689"
+    },
+    "repository_reading_copy_adoption": {
+      "path": "research/part1-final/source_policies/rev167_B12_project_adoption.json",
+      "sha256": "48abcf128b478c4594f3bc25fa6f634ddbeebabe671a0d7517c1c45d9289e169",
+      "status": "adopted_bounded_whole_natal_base_adapter",
+      "original_id": "project-adopted-whole-natal-B12-monthfood"
+    }
+  },
+  {
+    "module": "month_official",
+    "label": "月令正官财印",
+    "method": "MONTH-OFFICIAL-FINANCE-PRINT-WHOLE-0.2",
+    "component": "rev78_official_finance_print_whole_v0_2",
+    "source_readiness": "exact_primary_excerpt_visually_verified",
+    "known_limits": [
+      "同干财印、既有来源角色和已闭关系有限五层；印财相生正边不等全图通过。",
+      "本引文仅为该具名方法的传统依据，不单独证明本次最终喜用或其主次。",
+      "根气单位、传递系数、保留率及承载门属于原方法工程模型，不能说成古籍规定的数值。",
+      "不证明现实预测效度、完整传统身强身弱，或其他方法和地域的通用喜忌。"
+    ],
+    "case_ids": [
+      "A_month_official_positive",
+      "A_month_official_boundary"
+    ],
+    "adoption": {
+      "path": "core-yongshen/runtime/rev78_official_finance_print_whole_v0_2/rev84_official_whole_project_model_adoption.json",
+      "sha256": "6407f271e50aca9d7e56f2ab16ed5eea64ad66118c9080a90a54e3962ae6dded",
+      "status": "adopted_for_bounded_natal_model",
+      "original_id": "project-accepted-monthly-official-finance-print-whole-root02",
+      "archive": "bazi-core-runtime-v0.4.0.tar.gz",
+      "native_pin": "research/core-yongshen/month_official.py:POLICY_SHA",
+      "native_pin_verified": true
+    },
+    "current_handoff_scope_document": {
+      "path": "research/core-yongshen/month_official.md",
+      "sha256": "fb23302a58daf6c570b5140cbbd796265e696bc902d5535f58ebe7475dc172b8",
+      "github_commit": "575cfb3eeef690e52b5f0f7f383d429ef08db689"
+    },
+    "repository_reading_copy_adoption": {
+      "path": "work/rev84_official_whole_project_model_adoption.json",
+      "sha256": "6407f271e50aca9d7e56f2ab16ed5eea64ad66118c9080a90a54e3962ae6dded",
+      "status": "adopted_for_bounded_natal_model",
+      "original_id": "project-accepted-monthly-official-finance-print-whole-root02"
+    }
+  },
+  {
+    "module": "print_finance",
+    "label": "印重财轻兼食伤",
+    "method": "core-yongshen-print-finance-outlet-single-stock/0.1.0",
+    "component": "rev267_concurrent_finance_print_extension",
+    "source_readiness": "exact_primary_excerpt_visually_verified",
+    "known_limits": [
+      "原印月、财轻兼露食伤的既有有界口径；保留degree/反馈/完整最小组，不能借纯印财算核代算。",
+      "旧CFP-SOURCE规则卡的两明印入口在四柱中不能原样成立；当前v0.4入口按既有交接文档扩展为月主气印加一明印，保留目标、系数及逐原点财反馈。引文支持共同传统前件，不声称旧卡条件与新入口逐字等同。",
+      "本引文仅为该具名方法的传统依据，不单独证明本次最终喜用或其主次。",
+      "根气单位、传递系数、保留率及承载门属于原方法工程模型，不能说成古籍规定的数值。",
+      "不证明现实预测效度、完整传统身强身弱，或其他方法和地域的通用喜忌。"
+    ],
+    "case_ids": [
+      "A_print_finance_positive",
+      "A_print_finance_boundary"
+    ],
+    "adoption": {
+      "path": "part1-final/source_policies/rev277_concurrent_print_finance_project_adoption.json",
+      "sha256": "3fda17b9b0a925eadb18e0796c2d408783abb24705d62ab95b9ee1394dac13be",
+      "status": "adopted_for_bounded_current_model",
+      "original_id": "rev277-current-print-finance-outlet-coupled-whole-project-adoption",
+      "archive": "bazi-core-runtime-v0.4.0.tar.gz",
+      "native_pin": "research/core-yongshen/print_finance.py:ADOPTION_SHA",
+      "native_pin_verified": true
+    },
+    "current_handoff_scope_document": {
+      "path": "research/core-yongshen/calendar/print_finance_calendar.md",
+      "sha256": "749437522cf433f456430c86cdf04e32b77135dcdab1ef02998fb74e683d3a30",
+      "github_commit": "575cfb3eeef690e52b5f0f7f383d429ef08db689"
+    },
+    "repository_reading_copy_adoption": {
+      "path": "research/part1-final/source_policies/rev277_concurrent_print_finance_project_adoption.json",
+      "sha256": "3fda17b9b0a925eadb18e0796c2d408783abb24705d62ab95b9ee1394dac13be",
+      "status": "adopted_for_bounded_current_model",
+      "original_id": "rev277-current-print-finance-outlet-coupled-whole-project-adoption"
+    }
+  },
+  {
+    "module": "pure_print_finance",
+    "label": "纯印取财",
+    "method": "core-yongshen-pure-print-finance/0.1.0",
+    "component": "rev97_print_finance_whole_research",
+    "source_readiness": "exact_primary_excerpt_visually_verified",
+    "known_limits": [
+      "保留主本不要/后本只要根深的争议；半印根下限与承载5/4是工程约定。",
+      "本引文仅为该具名方法的传统依据，不单独证明本次最终喜用或其主次。",
+      "根气单位、传递系数、保留率及承载门属于原方法工程模型，不能说成古籍规定的数值。",
+      "不证明现实预测效度、完整传统身强身弱，或其他方法和地域的通用喜忌。"
+    ],
+    "case_ids": [
+      "A_pure_print_finance_positive",
+      "A_pure_print_finance_boundary"
+    ],
+    "adoption": {
+      "path": "part1-final/source_policies/rev107_PF1_whole_project_model_adoption.json",
+      "sha256": "a1601494fef329620c7ff0faec79291069bbdbb916952e3be962ed324bece06b",
+      "status": "adopted_for_bounded_natal_model",
+      "original_id": "project-accepted-PF1-preserved-print-frame-whole-root02",
+      "archive": "bazi-core-runtime-v0.4.0.tar.gz",
+      "native_pin": "research/core-yongshen/pure_print_finance.py:ADOPTION_SHA",
+      "native_pin_verified": true
+    },
+    "repository_reading_copy_adoption": {
+      "path": "research/part1-final/source_policies/rev107_PF1_whole_project_model_adoption.json",
+      "sha256": "bc22125a7aea54a63d048c6096fae9b67acb6cce55d919724d1b9c55844bcb10",
+      "status": "adopted_for_bounded_natal_model",
+      "original_id": "project-accepted-PF1-preserved-print-frame-whole-root02"
+    }
+  },
+  {
+    "module": "hurt_finance",
+    "label": "严格伤官生财",
+    "method": "core-yongshen-month-hurt-finance-rev130/0.1",
+    "component": "rev267_concurrent_finance_print_extension",
+    "source_readiness": "exact_primary_excerpt_visually_verified",
+    "known_limits": [
+      "原局可已定，文档三时点仍未决或域外；未决时不附为确定结果证据。",
+      "本引文仅为该具名方法的传统依据，不单独证明本次最终喜用或其主次。",
+      "根气单位、传递系数、保留率及承载门属于原方法工程模型，不能说成古籍规定的数值。",
+      "不证明现实预测效度、完整传统身强身弱，或其他方法和地域的通用喜忌。"
+    ],
+    "case_ids": [
+      "A_hurt_finance_positive",
+      "A_hurt_finance_boundary"
+    ],
+    "adoption": {
+      "path": "part1-final/source_policies/rev130_HF012_current_project_model_adoption.json",
+      "sha256": "e3743be0ca9db1f0965cdff5a0fc9a028a17b700994b676727da5e0056a0d4a2",
+      "status": "adopted_for_bounded_current_model",
+      "original_id": "project-accepted-current-hurt-finance012-bounded-whole",
+      "archive": "bazi-core-runtime-v0.4.0.tar.gz",
+      "native_pin": "research/core-yongshen/hurt_finance.py:ADOPTION_SHA",
+      "native_pin_verified": true
+    },
+    "current_handoff_scope_document": {
+      "path": "research/core-yongshen/hurt_finance.md",
+      "sha256": "e1774bb4d3cbdc73f72cd83e6f0ee14c7f8f6f8c10eacec4a377d646e6b580dc",
+      "github_commit": "575cfb3eeef690e52b5f0f7f383d429ef08db689"
+    },
+    "repository_reading_copy_adoption": {
+      "path": "research/part1-final/source_policies/rev130_HF012_current_project_model_adoption.json",
+      "sha256": "b2ea9f84ab9aa9e0b5446e03f1fd117efdfe38a4b3788bb7205c6be18a1a6cd3",
+      "status": "adopted_for_bounded_current_model",
+      "original_id": "project-accepted-current-hurt-finance012-bounded-whole"
+    }
+  },
+  {
+    "module": "kill_food",
+    "label": "七杀用食伤",
+    "method": "whole-kill-food-feedback-H1-ROOT2-0.1.1",
+    "component": "rev286_chen_food_kill_current",
+    "source_readiness": "exact_primary_excerpt_visually_verified",
+    "known_limits": [
+      "单原杀、原局食伤及比劫；时运限比劫食伤，新增印财官杀均按现有范围守卫。",
+      "本引文仅为该具名方法的传统依据，不单独证明本次最终喜用或其主次。",
+      "根气单位、传递系数、保留率及承载门属于原方法工程模型，不能说成古籍规定的数值。",
+      "不证明现实预测效度、完整传统身强身弱，或其他方法和地域的通用喜忌。"
+    ],
+    "case_ids": [
+      "A_kill_food_positive",
+      "A_kill_food_boundary"
+    ],
+    "adoption": {
+      "path": "core-yongshen/runtime/rev286_chen_food_kill_current/sources/window_policy117.json",
+      "sha256": "03337fe405f66c182b0519d38a675279516d78762b088f15221fa106a5dfb197",
+      "status": "adopted_bounded_current_feedback_window_transport",
+      "original_id": "project-accepted-current-feedback-window012-software",
+      "archive": "bazi-core-runtime-v0.4.0.tar.gz",
+      "native_pin": "research/core-yongshen/kill_food.py:ADOPTION_SHA",
+      "native_pin_verified": true
+    },
+    "supplemental_natal_adoption": {
+      "path": "core-yongshen/runtime/rev286_chen_food_kill_current/runtime/model279/source/killfood71_policy.json",
+      "sha256": "37aeadfd5d0627bcf5fcb7a6d3f79bcafd34c1d38dcb344b421181ee4b520bd9",
+      "status": "adopted_for_bounded_natal_model",
+      "original_id": "project-accepted-whole-natal-kill-food-root02",
+      "archive": "bazi-core-runtime-v0.4.0.tar.gz"
+    },
+    "current_handoff_scope_document": {
+      "path": "research/core-yongshen/kill_food.md",
+      "sha256": "7567595aa5ddd120c54f577fbea40801920c00426388fdac5866bc58e737fc3c",
+      "github_commit": "575cfb3eeef690e52b5f0f7f383d429ef08db689"
+    },
+    "repository_reading_copy_adoption": {
+      "path": "frozen-kernels/rev286_chen_food_kill_current/runtime/model279/source/killfood71_policy.json",
+      "sha256": "67b5fa9b5415805c45c67d900188c66b1ff3b40b779e26d064c3c7a52781a61c",
+      "status": "adopted_for_bounded_natal_model",
+      "original_id": "project-accepted-whole-natal-kill-food-root02"
+    }
+  },
+  {
+    "module": "yangren",
+    "label": "阳刃制伏",
+    "method": "primary-yangren-onewealth-full-feedback/0.1",
+    "component": "rev304_yangren_complete_feedback",
+    "source_readiness": "exact_primary_excerpt_visually_verified",
+    "known_limits": [
+      "单官或杀、一财、无食的既有有限作用；完整制刃、财存及承载必须联合通过。",
+      "本引文仅为该具名方法的传统依据，不单独证明本次最终喜用或其主次。",
+      "根气单位、传递系数、保留率及承载门属于原方法工程模型，不能说成古籍规定的数值。",
+      "不证明现实预测效度、完整传统身强身弱，或其他方法和地域的通用喜忌。"
+    ],
+    "case_ids": [
+      "A_yangren_positive",
+      "A_yangren_boundary"
+    ],
+    "adoption": {
+      "path": "part1-final/source_policies/rev327_Yangren_whole_project_adoption.json",
+      "sha256": "59aa436cfec1c9d4424c0f4a81f60cdc43f29c8d4f753b6c1de8c9d1877ff4a2",
+      "status": "adopted_exact304_singlewealth_foodabsent_Yangren_complete_feedback_engineering_model",
+      "original_id": null,
+      "archive": "bazi-core-runtime-v0.4.0.tar.gz",
+      "native_pin": "research/core-yongshen/yangren.py:ADOPTION_SHA",
+      "native_pin_verified": true
+    },
+    "current_handoff_scope_document": {
+      "path": "research/core-yongshen/yangren.md",
+      "sha256": "8e7cad730fc6c7633092899c944de35bfe3dab4e75fb41d3c2856f783530e8f0",
+      "github_commit": "575cfb3eeef690e52b5f0f7f383d429ef08db689"
+    },
+    "repository_reading_copy_adoption": {
+      "path": "research/part1-final/source_policies/rev327_Yangren_whole_project_adoption.json",
+      "sha256": "36cec748a34ee437039e0066888eaaaf387a213672050565875d72e905c5df6f",
+      "status": "adopted_exact304_singlewealth_foodabsent_Yangren_complete_feedback_engineering_model",
+      "original_id": null
+    }
+  },
+  {
+    "module": "wu",
+    "method": "PrimaryWu-actual-five-UTC-current-whole/0.1/nominal",
+    "component": "rev445_Wu_actual_five_time_whole",
+    "source_readiness": {
+      "status": "verified_method_basis_ready",
+      "rule_ids": [
+        "rev445_Wu_actual_five_time_whole::PWU-SOURCE"
+      ],
+      "passage_ids": [
+        "B-WU-PRINT-P93"
+      ],
+      "scope": "method_basis only; conditional source branches kept separate; no algorithm rewritten"
+    },
+    "known_limits": [
+      "仅固定原吴命例及既有445有限五层源域；不泛化为所有木旺盘。"
+    ],
+    "original_algorithms_reused": true,
+    "adoption": {
+      "path": "core-yongshen/runtime/rev573_complete_runtime_kernel/source/exact459_actualfive_adoption.json",
+      "original_archive_or_runtime_path": "core-yongshen/runtime/rev573_complete_runtime_kernel/source/exact459_actualfive_adoption.json",
+      "sha256": "91b56b4e5d212283ccaf93756d2f2c279e5176179058fe81f997bccd4552b41e",
+      "status": "adopted_exact445127_after457_actual_five_UTC_whole_and_window_comparison_finite_method",
+      "runtime_snapshot_sha256": "5fc94c2b1560ae5e9a357e278b33d482cd7b004f061227168bb34933f473b005"
+    }
+  },
+  {
+    "module": "wu_relations",
+    "method": "PrimaryWu-actual-five-UTC-current-whole/0.4/nominal",
+    "component": "rev573_complete_runtime_kernel",
+    "source_readiness": {
+      "status": "verified_print_task_basis_ready_other_tasks_not_fully_linked",
+      "rule_ids": [
+        "rev573_complete_runtime_kernel::named_source_tasks.current_print_task"
+      ],
+      "passage_ids": [
+        "B-WU-PRINT-P93"
+      ],
+      "scope": "method_basis only; conditional source branches kept separate; no algorithm rewritten"
+    },
+    "known_limits": [
+      "公共结果在core外层可能仍method0.1，0.4出现在supplementary_current_tasks；不得仅凭trace出现0.4覆盖顶层未决。",
+      "本次仅补原印维护来源；丁食泄秀的徐注及辛K/F/酉任务不借用此段充当完整原文。",
+      "只有实际选定原印维护且完整状态的扩展结果可作相应确认引用。"
+    ],
+    "original_algorithms_reused": true,
+    "adoption": {
+      "path": "part1-final/source_policies/rev582_Wu_three_relations_project_adoption.json",
+      "original_archive_or_runtime_path": "part1-final/source_policies/rev582_Wu_three_relations_project_adoption.json",
+      "sha256": "2b5fc7e6664f1bab4f376b0f28bc6c8b07a1dcd2feef0c534cdd90cbe34e29dc",
+      "status": "adopted_exact573_0.4.1_after578_complete_current_Ding_JiaJi_MaoYou_parallel_methods",
+      "runtime_snapshot_sha256": "5fc94c2b1560ae5e9a357e278b33d482cd7b004f061227168bb34933f473b005"
+    }
+  },
+  {
+    "module": "dingchen",
+    "method": "DingChen-ordinary-Bing-veto-whole-theme-research/0.1",
+    "component": "rev233_DingRen_source_theme_whole",
+    "source_readiness": {
+      "status": "verified_method_basis_ready",
+      "rule_ids": [
+        "rev233_DingRen_source_theme_whole::source_proof.literal_negative_witnesses"
+      ],
+      "passage_ids": [
+        "B-DING-BING-VETO-P129"
+      ],
+      "scope": "method_basis only; conditional source branches kept separate; no algorithm rewritten"
+    },
+    "known_limits": [
+      "254模型采用与消费者采用分开；本轮沿现成core适配，不增算法。",
+      "无丙、辛、完整木会及其他未解条件仍原生未决；retention1等系数仅工程。"
+    ],
+    "original_algorithms_reused": true,
+    "adoption": {
+      "path": "work/rev254_DingRen_whole_project_model_adoption.json",
+      "original_archive_or_runtime_path": "work/rev254_DingRen_whole_project_model_adoption.json",
+      "sha256": "9e3c641b2237583d78adad21bcec5c84b5142896d65c78a314a54372695cb280",
+      "status": "adopted_bounded_source_qualified_complete_current_whole_model",
+      "runtime_snapshot_sha256": "5fc94c2b1560ae5e9a357e278b33d482cd7b004f061227168bb34933f473b005"
+    }
+  },
+  {
+    "module": "chen_food_kill",
+    "method": "misc-Chen-food-uses-kill-print-whole-functions/0.1",
+    "component": "rev286_chen_food_kill_current",
+    "source_readiness": {
+      "status": "verified_method_basis_ready",
+      "rule_ids": [
+        "rev286_chen_food_kill_current::natal_source_whole"
+      ],
+      "passage_ids": [
+        "B-CHEN-FOOD-KILL-P43",
+        "B-FOOD-KILL-PRINT-P76"
+      ],
+      "scope": "method_basis only; conditional source branches kept separate; no algorithm rewritten"
+    },
+    "known_limits": [
+      "五层只承接既有同干壬杀甲印戊食且源门通过；其它角色不删去假装闭合。"
+    ],
+    "original_algorithms_reused": true,
+    "adoption": {
+      "path": "part1-final/source_policies/rev301_current_carriers_inner_project_adoption.json",
+      "original_archive_or_runtime_path": "part1-final/source_policies/rev301_current_carriers_inner_project_adoption.json",
+      "sha256": "9645a0baec23f8595a5fd12534ca0c64c6db0830039087860cb63ff979c7d71a",
+      "status": "adopted_for_bounded_current_whole_model",
+      "runtime_snapshot_sha256": "5fc94c2b1560ae5e9a357e278b33d482cd7b004f061227168bb34933f473b005"
+    }
+  },
+  {
+    "module": "mcn1_net",
+    "method": "core-yongshen-Primary42-MCN1-local-net/0.1.0",
+    "component": "rev453_MC_N1_net_auxiliary",
+    "source_readiness": {
+      "status": "verified_method_basis_ready",
+      "rule_ids": [
+        "rev453_MC_N1_net_auxiliary::N453-1"
+      ],
+      "passage_ids": [
+        "B-MCN1-OFFICIAL-PRINT-P42"
+      ],
+      "scope": "method_basis only; conditional source branches kept separate; no algorithm rewritten"
+    },
+    "known_limits": [
+      "三离散尺度的同量数学增补与真实五层演员分账；局部净方向不是传统最终全局喜用。",
+      "各具名关系版本保持分歧，不挑成功参数。"
+    ],
+    "original_algorithms_reused": true,
+    "adoption": {
+      "path": "part1-final/source_policies/rev460_MC_N1_net_auxiliary_project_adoption.json",
+      "original_archive_or_runtime_path": "part1-final/source_policies/rev460_MC_N1_net_auxiliary_project_adoption.json",
+      "sha256": "c376f0a6c6d788e807d5f71d5d24882c1fa07c5dcf8dc0773f480d2f592d2820",
+      "status": "adopted_exact453102_finite_source_based_local_net_auxiliary_after458_with_effective_status_cards",
+      "runtime_snapshot_sha256": "5fc94c2b1560ae5e9a357e278b33d482cd7b004f061227168bb34933f473b005"
+    }
+  },
+  {
+    "module": "mcn2",
+    "method": "MCN2-467-four-axis-net-five-layer-0.1",
+    "component": "rev467_complete_runtime_release",
+    "source_readiness": {
+      "status": "verified_method_basis_ready",
+      "rule_ids": [
+        "rev467_complete_runtime_release::467-01"
+      ],
+      "passage_ids": [
+        "B-MCN2-REN-BING-VARIANT-P42-P43"
+      ],
+      "scope": "method_basis only; conditional source branches kept separate; no algorithm rewritten"
+    },
+    "known_limits": [
+      "主本无所得异文保留，不按电子无碍改文；四指标净方向是具名工程问题。",
+      "初构造原局/当前未决需保留，不能为了引用回退到其它方法。"
+    ],
+    "original_algorithms_reused": true,
+    "adoption": {
+      "path": "part1-final/source_policies/rev475_MC_N2_complete_feedback_adoption.json",
+      "original_archive_or_runtime_path": "part1-final/source_policies/rev475_MC_N2_complete_feedback_adoption.json",
+      "sha256": "050730c213519e8eabe0f8a6122a14f85623d3c11bae59edd6c77317e2042c8d",
+      "status": "adopted_exact4670.1.1_95_and_bound_complete49_runtime_after47442_nonauthor_review",
+      "runtime_snapshot_sha256": "5fc94c2b1560ae5e9a357e278b33d482cd7b004f061227168bb34933f473b005"
+    }
+  },
+  {
+    "module": "finance_follow",
+    "method": "core-yongshen-Ren-finance-standing-dependence/0.1.0",
+    "component": "rev253_effective_support_follow_competition",
+    "source_readiness": {
+      "status": "verified_method_basis_ready",
+      "rule_ids": [
+        "rev253_effective_support_follow_competition::source_used_targets_support.ordinary",
+        "rev253_effective_support_follow_competition::source_used_targets_support.Ren_follow"
+      ],
+      "passage_ids": [
+        "B-FINANCE-FOOD-P69",
+        "B-REN-FOLLOW-OUTLET-P370",
+        "B-REN-SHALLOW-ROOT-P369"
+      ],
+      "scope": "method_basis only; conditional source branches kept separate; no algorithm rewritten",
+      "binding_scope": "Native trace.source_question.question selects ordinary vs Ren_dependent; both exact identities are separately bound."
+    },
+    "known_limits": [
+      "Primary普通与Ren1947浅根依从按不同来源条件比较；不能因普通承载失败自动转从。",
+      "初候选outside保留；本轮按既有源门构造新例，主代理已实际复算原局和当前均determined。"
+    ],
+    "original_algorithms_reused": true,
+    "adoption": {
+      "path": "part1-final/source_policies/rev281_effective_support_project_adoption.json",
+      "original_archive_or_runtime_path": "part1-final/source_policies/rev281_effective_support_project_adoption.json",
+      "sha256": "b57aeb868b7c0d4611cb9ac2db7211a8644b6857d4e6ad8393427811f9fa2546",
+      "status": "adopted_for_bounded_whole_model",
+      "runtime_snapshot_sha256": "5fc94c2b1560ae5e9a357e278b33d482cd7b004f061227168bb34933f473b005"
+    }
+  },
+  {
+    "module": "lujie",
+    "method": "core-yongshen-yimao-lujie-whole/0.1.0",
+    "component": "rev524_Lujie_Yimao_exposed_food_finance_joint_operator",
+    "source_readiness": {
+      "status": "verified_method_basis_ready",
+      "rule_ids": [
+        "rev524_Lujie_Yimao_exposed_food_finance_joint_operator::LJ-ORDINARY-34"
+      ],
+      "passage_ids": [
+        "B-LUJIE-FINANCE-FOOD-P89",
+        "B-LUJIE-FOOD-VENTING-P90"
+      ],
+      "scope": "method_basis only; conditional source branches kept separate; no algorithm rewritten"
+    },
+    "known_limits": [
+      "PF与PFT是两支；独立原印救P不合并主任务。",
+      "已读543强制来源更正，食重简写不得冒精确原文。"
+    ],
+    "original_algorithms_reused": true,
+    "adoption": {
+      "path": "03_唯一内容/sha256/0c/0cfa896aae5615b6fdc98ef92ad8355a61bb3fb72f4917408bec9a8f354937bd",
+      "original_archive_or_runtime_path": "03_唯一内容/sha256/0c/0cfa896aae5615b6fdc98ef92ad8355a61bb3fb72f4917408bec9a8f354937bd",
+      "sha256": "0cfa896aae5615b6fdc98ef92ad8355a61bb3fb72f4917408bec9a8f354937bd",
+      "status": "adopted_exact52464_kernel43_after54125_with_effective_source_correction",
+      "runtime_snapshot_sha256": "5fc94c2b1560ae5e9a357e278b33d482cd7b004f061227168bb34933f473b005"
+    }
+  },
+  {
+    "module": "lujie_single_finance",
+    "method": "core-yongshen-yimao-single-finance/0.1.0",
+    "component": "rev539_Lujie_hidden_food_and_single_finance_exception",
+    "source_readiness": {
+      "status": "verified_method_basis_ready",
+      "rule_ids": [
+        "rev539_Lujie_hidden_food_and_single_finance_exception::LJ-NO-EXPOSED-FOOD-EXCEPTION"
+      ],
+      "passage_ids": [
+        "B-LUJIE-SINGLE-FINANCE-P91"
+      ],
+      "scope": "method_basis only; conditional source branches kept separate; no algorithm rewritten"
+    },
+    "known_limits": [
+      "藏食E与单财S保留分别；至少两不同原未根是既有工程充分条件。"
+    ],
+    "original_algorithms_reused": true,
+    "adoption": {
+      "path": "part1-final/source_policies/rev547_single_finance_exception_project_adoption.json",
+      "original_archive_or_runtime_path": "part1-final/source_policies/rev547_single_finance_exception_project_adoption.json",
+      "sha256": "b08735bb89850c3d04e6629f3ec26bcdc4c4f510acadb6c9f5b24fb3ead48a57",
+      "status": "adopted_exact539r1_83_kernel59_after546_independent18_new_analyses",
+      "runtime_snapshot_sha256": "5fc94c2b1560ae5e9a357e278b33d482cd7b004f061227168bb34933f473b005"
+    }
+  },
+  {
+    "module": "lujie_xin",
+    "method": "core-yongshen-yimao-double-xin/0.1.0",
+    "component": "rev540_Lujie_Xin_kill_food_finance_whole",
+    "source_readiness": {
+      "status": "verified_method_basis_ready",
+      "rule_ids": [
+        "rev540_Lujie_Xin_kill_food_finance_whole::LJ-XIN-PRESENT-AND-SOURCE"
+      ],
+      "passage_ids": [
+        "B-LUJIE-CLEAR-KILL-KEEP-FINANCE-P90",
+        "B-LUJIE-KILL-CONTROL-P90"
+      ],
+      "scope": "method_basis only; conditional source branches kept separate; no algorithm rewritten"
+    },
+    "known_limits": [
+      "纯煞/煞食K与财煞Q分开；P独立，不把财煞K诊断当最终。",
+      "已读558采用中要求的557来源归属更正，未复述其禁止伪引文。"
+    ],
+    "original_algorithms_reused": true,
+    "adoption": {
+      "path": "part1-final/source_policies/rev558_Xin_whole_project_adoption.json",
+      "original_archive_or_runtime_path": "part1-final/source_policies/rev558_Xin_whole_project_adoption.json",
+      "sha256": "97eadee94755cbb2c5a900de3cf6a2ad6ee01ee470817ea30e9a4e6f7a76ef2d",
+      "status": "adopted_finite_complete_K_Q_P_source_operator_with_required557_attribution_correction",
+      "runtime_snapshot_sha256": "5fc94c2b1560ae5e9a357e278b33d482cd7b004f061227168bb34933f473b005"
+    }
+  },
+  {
+    "module": "jiase",
+    "method": "Jiase384-original-and-actual-five-R0-all-rates",
+    "component": "rev569_Jiase384_complete_runtime_kernel",
+    "source_readiness": "fixed_runtime_page_images_visually_verified",
+    "source_basis_status": "complete_for_curated_method_basis_subset_not_every_rule",
+    "verified_passage_ids": [
+      "C-JIASE-WOOD-ONE"
+    ],
+    "known_limits": [
+      "Only the existing finite source domain is adopted. Numerical rates, R0, root inventories and thresholds remain named engineering assumptions, not classical text or real-world predictive validation."
+    ],
+    "rule_coverage_note": "This delivery supplies the registered classical basis of the method. It does not assert every numerical/engineering rule or every classical clause has an exact quotation.",
+    "adoption": {
+      "path": "runtime/part1-final/source_policies/rev619_Jiase384_project_adoption.json",
+      "sha256": "38ac90a048dd5ce029ce34f7ecd28aab2ebe7a26cfa8b386a5458cfd4407f568",
+      "status": "adopted_exact569_Jiase384_after449_three_same_H_source_questions_actualfive"
+    }
+  },
+  {
+    "module": "quzhi",
+    "method": "Quzhi519-clear5-original-print-and-same-stem-R0-five-layer",
+    "component": "rev519_complete_runtime_kernel",
+    "source_readiness": "fixed_runtime_page_images_visually_verified",
+    "source_basis_status": "complete_for_curated_method_basis_subset_not_every_rule",
+    "verified_passage_ids": [
+      "C-QUZHI-EXPOSED-PRINT",
+      "C-QUZHI-HAI-PRINT"
+    ],
+    "known_limits": [
+      "Only the existing finite source domain is adopted. Numerical rates, R0, root inventories and thresholds remain named engineering assumptions, not classical text or real-world predictive validation."
+    ],
+    "rule_coverage_note": "This delivery supplies the registered classical basis of the method. It does not assert every numerical/engineering rule or every classical clause has an exact quotation.",
+    "adoption": {
+      "path": "runtime/part1-final/source_policies/rev536_Quzhi_complete_source_and_Primary_print_adoption.json",
+      "sha256": "e6a9aecbbd9eb1bc6a4fa2abda7b866f13935c752f2d1e3e1891f35521ea1226",
+      "status": "adopted_exact51961_runtime42_after53334_with_direction_erratum"
+    }
+  },
+  {
+    "module": "congge",
+    "method": "sanming-reforming-metal-signed-whole/0.1",
+    "current_method": "sanming-reforming-metal-original-Ding-retention-five-layer/0.1",
+    "component": "rev232_reforming_metal_whole_research",
+    "source_readiness": "fixed_runtime_page_images_visually_verified",
+    "source_basis_status": "complete_for_curated_method_basis_subset_not_every_rule",
+    "verified_passage_ids": [
+      "C-CONGGE-NO-EXCESS-FIRE"
+    ],
+    "known_limits": [
+      "Only the existing finite source domain is adopted. Numerical rates, R0, root inventories and thresholds remain named engineering assumptions, not classical text or real-world predictive validation.",
+      "The two adopted natal charts may be determined; same-stem five-layer current method is a distinct diagnostic-only method.",
+      "Source excerpt currently covers only the fire-excess restriction. Adjacent 巳/已-shaped glyph is retained as unresolved; full branch transcription is not published as verified."
+    ],
+    "rule_coverage_note": "This delivery supplies the registered classical basis of the method. It does not assert every numerical/engineering rule or every classical clause has an exact quotation.",
+    "adoption": {
+      "path": "runtime/part1-final/source_policies/rev235_reforming_whole_project_model_adoption.json",
+      "sha256": "b9ac38f1c40db7c15dfcf804be6b234de771f5ab518ae05a4e3f0a744aa2524a",
+      "status": "adopted_bounded_comparative_source_whole_model"
+    }
+  },
+  {
+    "module": "runxia",
+    "method": "Runxia410-original-and-actual-five-R0-all-rates",
+    "component": "rev569_Runxia410_complete_runtime_kernel",
+    "source_readiness": "fixed_runtime_page_images_visually_verified",
+    "source_basis_status": "complete_for_curated_method_basis_subset_not_every_rule",
+    "verified_passage_ids": [
+      "C-RUNXIA-EARTH-METAL"
+    ],
+    "known_limits": [
+      "Only the existing finite source domain is adopted. Numerical rates, R0, root inventories and thresholds remain named engineering assumptions, not classical text or real-world predictive validation."
+    ],
+    "rule_coverage_note": "This delivery supplies the registered classical basis of the method. It does not assert every numerical/engineering rule or every classical clause has an exact quotation.",
+    "adoption": {
+      "path": "runtime/part1-final/source_policies/rev621_Runxia410_project_adoption.json",
+      "sha256": "9cf209de7f4db13bd193574e322a89530d9ea370014f0f35544d4ce075b0b38e",
+      "status": "adopted_exact569_Runxia410_after618_originalwater_resource_R0_five_layer"
+    }
+  },
+  {
+    "module": "strong_follow",
+    "method": "Strong417-rooted-peer-print-cooperation-and-actual-five-R0",
+    "component": "rev569_Strong417_complete_runtime_kernel",
+    "source_readiness": "fixed_runtime_page_images_visually_verified",
+    "source_basis_status": "complete_for_curated_method_basis_subset_not_every_rule",
+    "verified_passage_ids": [
+      "C-STRONG-PEER-PRINT"
+    ],
+    "known_limits": [
+      "Only the existing finite source domain is adopted. Numerical rates, R0, root inventories and thresholds remain named engineering assumptions, not classical text or real-world predictive validation."
+    ],
+    "rule_coverage_note": "This delivery supplies the registered classical basis of the method. It does not assert every numerical/engineering rule or every classical clause has an exact quotation.",
+    "adoption": {
+      "path": "runtime/part1-final/source_policies/rev600_Strong417_project_adoption.json",
+      "sha256": "668355e20fd5c1c247d5fdb97516b57fd5860f086a8b25820844d363107c10c4",
+      "status": "adopted_exact569_Strong417_after599_finite_actualfive_R0_and_source_separate"
+    }
+  },
+  {
+    "module": "force_follow",
+    "method": "Force392-S2-current-six-connected-source-versions",
+    "component": "rev569_Force392_complete_runtime_kernel",
+    "source_readiness": "fixed_runtime_page_images_visually_verified",
+    "source_basis_status": "complete_for_curated_method_basis_subset_not_every_rule",
+    "verified_passage_ids": [
+      "C-FORCE-OFFICIAL-FINANCE"
+    ],
+    "known_limits": [
+      "Only the existing finite source domain is adopted. Numerical rates, R0, root inventories and thresholds remain named engineering assumptions, not classical text or real-world predictive validation."
+    ],
+    "rule_coverage_note": "This delivery supplies the registered classical basis of the method. It does not assert every numerical/engineering rule or every classical clause has an exact quotation.",
+    "adoption": {
+      "path": "runtime/part1-final/source_policies/rev605_Force392_project_adoption.json",
+      "sha256": "2cbd1dfb08fefeb399102193647eec8ba9932c454388c4f58c8f118a3f4d699c",
+      "status": "adopted_exact569_Force392_after604_two_finite_Hai_policies_full_five"
+    }
+  },
+  {
+    "module": "yanshang",
+    "method": "Yanshang404-original-and-actual-five-R0-all-rates",
+    "component": "rev609_complete_runtime_kernel",
+    "source_readiness": "fixed_runtime_page_images_visually_verified",
+    "source_basis_status": "complete_for_curated_method_basis_subset_not_every_rule",
+    "verified_passage_ids": [
+      "C-YANSHANG-HAI",
+      "C-YANSHANG-YIN-PRINT"
+    ],
+    "known_limits": [
+      "Only the existing finite source domain is adopted. Numerical rates, R0, root inventories and thresholds remain named engineering assumptions, not classical text or real-world predictive validation.",
+      "Frozen per-parameter positive cases do not prove all-rate public adjudication is determined; failed and disagreement outcomes stay undetermined."
+    ],
+    "rule_coverage_note": "This delivery supplies the registered classical basis of the method. It does not assert every numerical/engineering rule or every classical clause has an exact quotation.",
+    "adoption": {
+      "path": "runtime/part1-final/source_policies/rev616_Yanshang609_project_adoption.json",
+      "sha256": "3285d33e4c961042966f09e284df84b3995e640354f1f8e352963a55f36a7630",
+      "status": "adopted_exact609_Yanshang404_after449_complete_actual_five_source_R0"
+    }
+  },
+  {
+    "module": "four_transform",
+    "method": "Ren376-four-strict-transformations-outlet-current-0.1",
+    "component": "rev505_four_daymaster_true_transformation_r1",
+    "source_readiness": "fixed_runtime_page_images_visually_verified",
+    "source_basis_status": "complete_for_curated_method_basis_subset_not_every_rule",
+    "verified_passage_ids": [
+      "C-TRANSFORM-OUTLET",
+      "C-TRANSFORM-STRICT"
+    ],
+    "known_limits": [
+      "Only the existing finite source domain is adopted. Numerical rates, R0, root inventories and thresholds remain named engineering assumptions, not classical text or real-world predictive validation.",
+      "Public auxiliary remains null; this module currently supplies source diagnostics only. Citations must remain diagnostic_citations, not final 喜用 proof."
+    ],
+    "rule_coverage_note": "This delivery supplies the registered classical basis of the method. It does not assert every numerical/engineering rule or every classical clause has an exact quotation.",
+    "adoption": {
+      "path": "runtime/part1-final/source_policies/rev523_four_daymaster_r1_project_adoption.json",
+      "sha256": "58123b279d206caf801c9acce6bf83caa20a323a0994c47617dacbd28009d910",
+      "status": "adopted_exact505_0.1.1_257_after51657_plus_required_document_errata"
+    }
+  },
+  {
+    "module": "virtual_well",
+    "method": "Primary-well-real-source-license-and-five-layer-R0-0.1",
+    "component": "rev515_Primary_six_virtual_invitation",
+    "source_readiness": "fixed_runtime_page_images_visually_verified",
+    "source_basis_status": "complete_for_curated_method_basis_subset_not_every_rule",
+    "verified_passage_ids": [
+      "C-WELL-LICENSE"
+    ],
+    "known_limits": [
+      "Only the existing finite source domain is adopted. Numerical rates, R0, root inventories and thresholds remain named engineering assumptions, not classical text or real-world predictive validation.",
+      "Public auxiliary remains null; this module currently supplies source diagnostics only. Citations must remain diagnostic_citations, not final 喜用 proof."
+    ],
+    "rule_coverage_note": "This delivery supplies the registered classical basis of the method. It does not assert every numerical/engineering rule or every classical clause has an exact quotation.",
+    "adoption": {
+      "path": "runtime/part1-final/source_policies/rev537_six_virtual_functions_and_D01_adoption.json",
+      "sha256": "63abf40f14ee6dd67c156d0fc295d76f88f9ab536a236178fec865461ae37d02",
+      "status": "adopted_exact515174_after53455_with_historical_context_and_IO_reading_notes"
+    }
+  },
+  {
+    "module": "xin_climate",
+    "method": "Ren74-Xin-H0-three-source-diagnostics-actual-five-R0",
+    "component": "rev584_complete_runtime_kernel",
+    "source_readiness": "fixed_runtime_page_images_visually_verified",
+    "source_basis_status": "complete_for_curated_method_basis_subset_not_every_rule",
+    "verified_passage_ids": [
+      "C-XIN-HEAVY-WU",
+      "C-XIN-SUMMER-JI",
+      "C-XIN-WINTER-DING"
+    ],
+    "known_limits": [
+      "Only the existing finite source domain is adopted. Numerical rates, R0, root inventories and thresholds remain named engineering assumptions, not classical text or real-world predictive validation.",
+      "Public auxiliary remains null; this module currently supplies source diagnostics only. Citations must remain diagnostic_citations, not final 喜用 proof."
+    ],
+    "rule_coverage_note": "This delivery supplies the registered classical basis of the method. It does not assert every numerical/engineering rule or every classical clause has an exact quotation.",
+    "adoption": {
+      "path": "runtime/part1-final/source_policies/rev608_Xin_H0_project_adoption.json",
+      "sha256": "2978df12834c5cdce930b11b3048295dfac6e6e6e40943a76dcf120088feec8e",
+      "status": "adopted_exact584_H0_three_source_branches_after449_M1_still_separate"
+    }
+  },
+  {
+    "module": "soil_climate",
+    "method": "Ren-fourform-soil-cold-wet-dry-actual-source-0.1",
+    "component": "rev528_complete_runtime_kernel_r1",
+    "source_readiness": "fixed_runtime_page_images_visually_verified",
+    "source_basis_status": "complete_for_curated_method_basis_subset_not_every_rule",
+    "verified_passage_ids": [
+      "C-SOIL-COLD",
+      "C-SOIL-DRY",
+      "C-SOIL-WET"
+    ],
+    "known_limits": [
+      "Only the existing finite source domain is adopted. Numerical rates, R0, root inventories and thresholds remain named engineering assumptions, not classical text or real-world predictive validation.",
+      "Public auxiliary remains null; this module currently supplies source diagnostics only. Citations must remain diagnostic_citations, not final 喜用 proof."
+    ],
+    "rule_coverage_note": "This delivery supplies the registered classical basis of the method. It does not assert every numerical/engineering rule or every classical clause has an exact quotation.",
+    "adoption": {
+      "path": "runtime/part1-final/source_policies/rev562_fourform_support_climate_project_adoption.json",
+      "sha256": "affac46cf4b990e84cedf46577ede542a7cd7e10fcc7a0198622a80b528d61ef",
+      "status": "adopted_exact_finite_source_operator_after_independent_review"
+    }
+  }
+]

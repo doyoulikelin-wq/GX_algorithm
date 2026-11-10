@@ -1,0 +1,443 @@
+{
+  "schema": "gx-prior-server-verification-summary-0.1",
+  "release_id": "20261110-v2",
+  "verified_on": "2026-11-10",
+  "source": "previous server verification, summarized without private inputs, outputs or trace",
+  "integration_cases": 69,
+  "integration_checks": 8551,
+  "native_baseline_matches": 69,
+  "regression_checks_passed": 61,
+  "additional_input_gate_checks_passed": 6,
+  "runtime_algorithms_changed": false,
+  "seed_sha256": "34b6ce379dd78a5d482fa81bf267f6eb47e4095e090f2abf572c600d373e2594",
+  "catalog_sha256": "3a5e72402b4a9b10e5ae67ad3938b4c805f1ed706e50cd8f2836b1ba4772f47f",
+  "current_determined_modules_in_selected_cases": 20,
+  "natal_only_modules_in_selected_cases": 4,
+  "source_diagnostic_modules_in_selected_cases": 4,
+  "unexercised_eligible_branch": "B-FINANCE-FOLLOW-REN-DEPENDENT-METHOD-BASIS-v1",
+  "modules": [
+    {
+      "module": "month_food_natal",
+      "case_count": 2,
+      "passed_cases": 2,
+      "public_natal_statuses": {
+        "determined": 2
+      },
+      "public_current_statuses": {
+        "determined": 1,
+        "undetermined": 1
+      },
+      "baseline_statuses": {
+        "full_native_match": 2
+      }
+    },
+    {
+      "module": "month_official",
+      "case_count": 2,
+      "passed_cases": 2,
+      "public_natal_statuses": {
+        "determined": 2
+      },
+      "public_current_statuses": {
+        "determined": 1,
+        "undetermined": 1
+      },
+      "baseline_statuses": {
+        "full_native_match": 2
+      }
+    },
+    {
+      "module": "print_finance",
+      "case_count": 2,
+      "passed_cases": 2,
+      "public_natal_statuses": {
+        "determined": 2
+      },
+      "public_current_statuses": {
+        "determined": 1,
+        "undetermined": 1
+      },
+      "baseline_statuses": {
+        "full_native_match": 2
+      }
+    },
+    {
+      "module": "pure_print_finance",
+      "case_count": 2,
+      "passed_cases": 2,
+      "public_natal_statuses": {
+        "determined": 2
+      },
+      "public_current_statuses": {
+        "determined": 1,
+        "outside_supported_domain": 1
+      },
+      "baseline_statuses": {
+        "full_native_match": 2
+      }
+    },
+    {
+      "module": "hurt_finance",
+      "case_count": 2,
+      "passed_cases": 2,
+      "public_natal_statuses": {
+        "determined": 2
+      },
+      "public_current_statuses": {
+        "undetermined": 1,
+        "outside_supported_domain": 1
+      },
+      "baseline_statuses": {
+        "full_native_match": 2
+      }
+    },
+    {
+      "module": "kill_food",
+      "case_count": 2,
+      "passed_cases": 2,
+      "public_natal_statuses": {
+        "determined": 2
+      },
+      "public_current_statuses": {
+        "determined": 1,
+        "undetermined": 1
+      },
+      "baseline_statuses": {
+        "full_native_match": 2
+      }
+    },
+    {
+      "module": "yangren",
+      "case_count": 2,
+      "passed_cases": 2,
+      "public_natal_statuses": {
+        "determined": 2
+      },
+      "public_current_statuses": {
+        "determined": 1,
+        "undetermined": 1
+      },
+      "baseline_statuses": {
+        "full_native_match": 2
+      }
+    },
+    {
+      "module": "wu",
+      "case_count": 2,
+      "passed_cases": 2,
+      "public_natal_statuses": {
+        "determined": 2
+      },
+      "public_current_statuses": {
+        "determined": 1,
+        "outside_supported_domain": 1
+      },
+      "baseline_statuses": {
+        "full_native_match": 2
+      }
+    },
+    {
+      "module": "wu_relations",
+      "case_count": 3,
+      "passed_cases": 3,
+      "public_natal_statuses": {
+        "determined": 3
+      },
+      "public_current_statuses": {
+        "undetermined": 1,
+        "outside_supported_domain": 1,
+        "determined": 1
+      },
+      "baseline_statuses": {
+        "full_native_match": 3
+      }
+    },
+    {
+      "module": "dingchen",
+      "case_count": 2,
+      "passed_cases": 2,
+      "public_natal_statuses": {
+        "determined": 2
+      },
+      "public_current_statuses": {
+        "no_additional_need": 1,
+        "outside_supported_domain": 1
+      },
+      "baseline_statuses": {
+        "full_native_match": 2
+      }
+    },
+    {
+      "module": "chen_food_kill",
+      "case_count": 2,
+      "passed_cases": 2,
+      "public_natal_statuses": {
+        "determined": 2
+      },
+      "public_current_statuses": {
+        "determined": 1,
+        "undetermined": 1
+      },
+      "baseline_statuses": {
+        "full_native_match": 2
+      }
+    },
+    {
+      "module": "mcn1_net",
+      "case_count": 3,
+      "passed_cases": 3,
+      "public_natal_statuses": {
+        "determined": 3
+      },
+      "public_current_statuses": {
+        "undetermined": 1,
+        "outside_supported_domain": 1,
+        "determined": 1
+      },
+      "baseline_statuses": {
+        "full_native_match": 3
+      }
+    },
+    {
+      "module": "mcn2",
+      "case_count": 5,
+      "passed_cases": 5,
+      "public_natal_statuses": {
+        "undetermined": 2,
+        "determined": 3
+      },
+      "public_current_statuses": {
+        "undetermined": 4,
+        "outside_supported_domain": 1
+      },
+      "baseline_statuses": {
+        "full_native_match": 5
+      }
+    },
+    {
+      "module": "finance_follow",
+      "case_count": 3,
+      "passed_cases": 3,
+      "public_natal_statuses": {
+        "outside_supported_domain": 2,
+        "determined": 1
+      },
+      "public_current_statuses": {
+        "outside_supported_domain": 2,
+        "determined": 1
+      },
+      "baseline_statuses": {
+        "full_native_match": 3
+      }
+    },
+    {
+      "module": "lujie",
+      "case_count": 2,
+      "passed_cases": 2,
+      "public_natal_statuses": {
+        "determined": 2
+      },
+      "public_current_statuses": {
+        "determined": 1,
+        "outside_supported_domain": 1
+      },
+      "baseline_statuses": {
+        "full_native_match": 2
+      }
+    },
+    {
+      "module": "lujie_single_finance",
+      "case_count": 2,
+      "passed_cases": 2,
+      "public_natal_statuses": {
+        "determined": 2
+      },
+      "public_current_statuses": {
+        "determined": 1,
+        "outside_supported_domain": 1
+      },
+      "baseline_statuses": {
+        "full_native_match": 2
+      }
+    },
+    {
+      "module": "lujie_xin",
+      "case_count": 2,
+      "passed_cases": 2,
+      "public_natal_statuses": {
+        "determined": 2
+      },
+      "public_current_statuses": {
+        "determined": 1,
+        "outside_supported_domain": 1
+      },
+      "baseline_statuses": {
+        "full_native_match": 2
+      }
+    },
+    {
+      "module": "jiase",
+      "case_count": 3,
+      "passed_cases": 3,
+      "public_natal_statuses": {
+        "determined": 2,
+        "outside_supported_domain": 1
+      },
+      "public_current_statuses": {
+        "determined": 2,
+        "outside_supported_domain": 1
+      },
+      "baseline_statuses": {
+        "full_native_match": 3
+      }
+    },
+    {
+      "module": "quzhi",
+      "case_count": 2,
+      "passed_cases": 2,
+      "public_natal_statuses": {
+        "determined": 2
+      },
+      "public_current_statuses": {
+        "determined": 1,
+        "outside_supported_domain": 1
+      },
+      "baseline_statuses": {
+        "full_native_match": 2
+      }
+    },
+    {
+      "module": "congge",
+      "case_count": 3,
+      "passed_cases": 3,
+      "public_natal_statuses": {
+        "determined": 3
+      },
+      "public_current_statuses": {
+        "outside_supported_domain": 2,
+        "undetermined": 1
+      },
+      "baseline_statuses": {
+        "full_native_match": 3
+      }
+    },
+    {
+      "module": "runxia",
+      "case_count": 2,
+      "passed_cases": 2,
+      "public_natal_statuses": {
+        "determined": 2
+      },
+      "public_current_statuses": {
+        "determined": 1,
+        "undetermined": 1
+      },
+      "baseline_statuses": {
+        "full_native_match": 2
+      }
+    },
+    {
+      "module": "strong_follow",
+      "case_count": 2,
+      "passed_cases": 2,
+      "public_natal_statuses": {
+        "determined": 2
+      },
+      "public_current_statuses": {
+        "undetermined": 1,
+        "determined": 1
+      },
+      "baseline_statuses": {
+        "full_native_match": 2
+      }
+    },
+    {
+      "module": "force_follow",
+      "case_count": 2,
+      "passed_cases": 2,
+      "public_natal_statuses": {
+        "determined": 2
+      },
+      "public_current_statuses": {
+        "undetermined": 1,
+        "determined": 1
+      },
+      "baseline_statuses": {
+        "full_native_match": 2
+      }
+    },
+    {
+      "module": "yanshang",
+      "case_count": 5,
+      "passed_cases": 5,
+      "public_natal_statuses": {
+        "determined": 5
+      },
+      "public_current_statuses": {
+        "undetermined": 5
+      },
+      "baseline_statuses": {
+        "full_native_match": 5
+      }
+    },
+    {
+      "module": "four_transform",
+      "case_count": 2,
+      "passed_cases": 2,
+      "public_natal_statuses": {
+        "undetermined": 2
+      },
+      "public_current_statuses": {
+        "undetermined": 2
+      },
+      "baseline_statuses": {
+        "full_native_match": 2
+      }
+    },
+    {
+      "module": "virtual_well",
+      "case_count": 2,
+      "passed_cases": 2,
+      "public_natal_statuses": {
+        "undetermined": 2
+      },
+      "public_current_statuses": {
+        "undetermined": 2
+      },
+      "baseline_statuses": {
+        "full_native_match": 2
+      }
+    },
+    {
+      "module": "xin_climate",
+      "case_count": 4,
+      "passed_cases": 4,
+      "public_natal_statuses": {
+        "undetermined": 4
+      },
+      "public_current_statuses": {
+        "undetermined": 3,
+        "outside_supported_domain": 1
+      },
+      "baseline_statuses": {
+        "full_native_match": 4
+      }
+    },
+    {
+      "module": "soil_climate",
+      "case_count": 2,
+      "passed_cases": 2,
+      "public_natal_statuses": {
+        "undetermined": 2
+      },
+      "public_current_statuses": {
+        "undetermined": 2
+      },
+      "baseline_statuses": {
+        "full_native_match": 2
+      }
+    }
+  ],
+  "source_report_sha256": "a21781c28c13978a233cd22862b44d77a285896c0c859f9a59fd4bfcb059056d",
+  "meaning": "Software and evidence linkage validation on constructed cases; not real-world prediction validation."
+}
